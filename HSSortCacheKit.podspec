@@ -20,10 +20,10 @@ Pod::Spec.new do |spec|
   spec.author             = { "王雪娟" => "wangxuejuan0811@rayootech.com" }
   spec.source       = { :git => "https://github.com/WangXueJuan/HSSortCacheKit.git", :tag => "#{spec.version}" }
   spec.vendored_frameworks = "*.framework"
+  spec.dependency 'SDWebImage', '4.4.6'
 
   spec.requires_arc = true
 
-  spec.dependency "SDWebImage"
   # spec.pod_target_xcconfig = {"OTHER_LDFLAGS" => "ObjC"} 
   
 end
