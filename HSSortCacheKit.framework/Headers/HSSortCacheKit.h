@@ -21,3 +21,4 @@ FOUNDATION_EXPORT const unsigned char HSSortCacheKitVersionString[];
 #import <HSSortCacheKit/HSDefaultsCache.h>
 #import <HSSortCacheKit/HSFileCache.h>
 #import <HSSortCacheKit/HSEnumConstants.h>
+#import <SDWebImage/SDWebImageManager.h>
