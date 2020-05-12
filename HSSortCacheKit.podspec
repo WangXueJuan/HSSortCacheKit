@@ -18,9 +18,9 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/WangXueJuan/HSSortCacheKit"
   spec.license      = "MIT"
   spec.author             = { "王雪娟" => "wangxuejuan0811@rayootech.com" }
-  spec.source       = { :git => "https://github.com/WangXueJuan/HSSortCacheKit.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/WangXueJuan/HSSortCacheKit.git", :tag => "spec.version" }
   spec.vendored_frameworks = "*.framework"
-  spec.dependency 'SDWebImage'
+  spec.ios.dependency 'SDWebImage'
 
   spec.requires_arc = true
 
