@@ -22,4 +22,8 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = "HSSortCacheKit.framework"
 
   spec.requires_arc = true
+
+  spec.dependency "SDWebImage"
+  spec.pod_target_xcconfig = {"OTHER_LDFLAGS" => "ObjC"} 
+  
 end
